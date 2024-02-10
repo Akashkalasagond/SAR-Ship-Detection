@@ -1,0 +1,8 @@
+path: "C:\\Users\\thatw\\akash\\Suhora Project"
+train: "C:\\Users\\thatw\\akash\\Suhora Project\\train\\images"
+val: "C:\\Users\\thatw\\akash\\Suhora Project\\test\\images"
+
+
+# class names
+names: 
+  0: 'ship'
