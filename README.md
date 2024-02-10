@@ -13,7 +13,12 @@ The ship detection model is based on YOLOv8 architecture. The model has been tra
 - **runs/detect_model**: This folder contains the results obtained by running the YOLOv8 model on the dataset.
 
 ## Results
-The model achieved a Mean Average Precision (MAP) score of 88.33%.
+
+| Metric                      | Result  |
+|-----------------------------|---------|
+| Precision                   | 0.8932  |
+| Recall                      | 0.7872  |
+| Mean Average Precision (mAP)| 0.8830  |
 
 ### Images
 
