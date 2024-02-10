@@ -31,7 +31,8 @@ The model achieved a Mean Average Precision (MAP) score of 88.33%.
     <td><b style="text-align:left;">Validating Sample 2</b><br><img src="runs/detect/predict/P0002_1800_2600_8400_9200.jpg" alt="Validating Sample 2" style="width:1000px;"></td>
   </tr>
   <tr>
-    <td colspan="2"><b style="text-align:left;">Confusion Matrix</b><br><img src="runs/detect/train/confusion_matrix.png" alt="Confusion Matrix" style="width:1000px;"></td>
+    <td><b style="text-align:left;">Confusion Matrix</b><br><img src="runs/detect/train/confusion_matrix.png" alt="Confusion Matrix" style="width:1000px;"></td>
+    <td><b style="text-align:left;">Labels Matrix</b><br><img src="runs/detect/train/labels.jpg" alt="Labels Matrix" style="width:1000px;"></td>
   </tr>
 </table>
 
