@@ -19,22 +19,22 @@ The model achieved a Mean Average Precision (MAP) score of 88.33%.
 
 <table>
   <tr>
-    <td><b>Results</b><br><img src="runs/detect/train/results.png" alt="Results" style="width:400px;"></td>
-    <td><b>Precision Curve</b><br><img src="runs/detect/train/P_curve.png" alt="Precision Curve" style="width:400px;"></td>
+    <td><b>Results</b><br><img src="runs/detect/train/results.png" alt="Results" style="width:550px;"></td>
+    <td><b>Precision Curve</b><br><img src="runs/detect/train/P_curve.png" alt="Precision Curve" style="width:550px;"></td>
   </tr>
   <tr>
-    <td><b>Training Sample 1</b><br><img src="runs/detect/train/val_batch1_pred.jpg" alt="Training Sample 1" style="width:400px;"></td>
-    <td><b>Training Sample 2</b><br><img src="runs/detect/train/val_batch2_labels.jpg" alt="Training Sample 2" style="width:400px;"></td>
+    <td><b>Training Sample 1</b><br><img src="runs/detect/train/val_batch1_pred.jpg" alt="Training Sample 1" style="width:550px;"></td>
+    <td><b>Training Sample 2</b><br><img src="runs/detect/train/val_batch2_labels.jpg" alt="Training Sample 2" style="width:550px;"></td>
   </tr>
   <tr>
-    <td><b>Validating Sample 1</b><br><img src="runs/detect/predict/P0001_3600_4400_4200_5000.jpg" alt="Validating Sample 1" style="width:400px;"></td>
-    <td><b>Validating Sample 2</b><br><img src="runs/detect/predict/P0002_1800_2600_8400_9200.jpg" alt="Validating Sample 2" style="width:400px;"></td>
+    <td><b>Validating Sample 1</b><br><img src="runs/detect/predict/P0001_3600_4400_4200_5000.jpg" alt="Validating Sample 1" style="width:550px;"></td>
+    <td><b>Validating Sample 2</b><br><img src="runs/detect/predict/P0002_1800_2600_8400_9200.jpg" alt="Validating Sample 2" style="width:550px;"></td>
   </tr>
   <tr>
-    <td colspan="2"><b>Confusion Matrix</b><br><img src="runs/detect/train/confusion_matrix.png" alt="Confusion Matrix" style="width:400px;"></td>
+    <td colspan="2"><b>Confusion Matrix</b><br><img src="runs/detect/train/confusion_matrix.png" alt="Confusion Matrix" style="width:550px;"></td>
+    <td colspan="2"><b>Labels Matrix</b><br><img src="runs/detect/train/labels.jpg" alt="Labels Matrix" style="width:550px;"></td>
   </tr>
 </table>
-
 ## Usage
 1. **Testing**: To test the model on new samples, place the images along with their labels in the `test` folder.
 2. **Training**: For training the model, use the images and labels provided in the `train` folder. Additionally, two Jupyter notebooks are provided for bounding box visualization and model training. These notebooks can be found in the root directory.
