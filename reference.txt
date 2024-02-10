@@ -1,0 +1,4 @@
+inshore images = 1031
+offshore images = 4573
+training samples = 3642
+testing samples = 1961
